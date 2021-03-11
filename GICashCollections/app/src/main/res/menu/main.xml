@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/start_stop"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bulk_scan"
+        android:icon="@drawable/barcode"
+        android:orderInCategory="100"
+        android:title="scan"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delivery"
+        android:icon="@drawable/box_red"
+        android:orderInCategory="100"
+        android:title="delivery"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+</menu>

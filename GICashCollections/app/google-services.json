@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "787388781665",
+    "firebase_url": "https://gicollection.firebaseio.com",
+    "project_id": "gicollection",
+    "storage_bucket": "gicollection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787388781665:android:d602717c10baea91",
+        "android_client_info": {
+          "package_name": "com.gicollectionfms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787388781665-u17t5s902oo30a3pa0avhkum2akve9gt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvAybMjpq1Nt_Uluc9tUqAmbqcpquLKUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787388781665-u17t5s902oo30a3pa0avhkum2akve9gt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

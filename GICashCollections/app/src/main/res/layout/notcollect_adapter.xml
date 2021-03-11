@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/PickupDTTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/NotCollectedReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/NotCollectedSubReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/FEName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/Remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/PTPDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="@color/text_secondary"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</RelativeLayout>

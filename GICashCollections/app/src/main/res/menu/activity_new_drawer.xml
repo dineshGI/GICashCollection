@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:id="@+id/gr1">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home"
+            android:visible="true" />
+    </group>
+
+    <group android:id="@+id/gr2">
+        <item
+            android:id="@+id/menu_kotak_pickup"
+            android:title="@string/kodak_pickup"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr3">
+        <item
+            android:id="@+id/menu_kotak_direct"
+            android:title="@string/kodak_direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr4">
+        <item
+            android:id="@+id/menu_nach"
+            android:title="@string/nach"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr5">
+        <item
+            android:id="@+id/menu_hdb_pickup"
+            android:title="@string/hdb_pickup"
+            android:visible="false" />
+    </group>
+
+    <group android:id="@+id/gr6">
+        <item
+            android:id="@+id/menu_hdb_direct"
+            android:title="@string/hdb_direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr7">
+        <item
+            android:id="@+id/menu_idfc_pickup"
+            android:title="@string/idfc_pickup"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr8">
+        <item
+            android:id="@+id/menu_idfc_direct"
+            android:title="@string/idfc_direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr9">
+        <item
+            android:id="@+id/menu_rbl_direct"
+            android:title="@string/rbl_direct"
+            android:visible="false" />
+    </group>
+
+    <group android:id="@+id/gr10">
+        <item
+            android:id="@+id/menu_tata_pickup"
+            android:title="@string/tata_pickup"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr11">
+        <item
+            android:id="@+id/menu_tata_direct"
+            android:title="@string/tata_direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr12">
+        <item
+            android:id="@+id/menu_lt"
+            android:title="@string/L_and_T"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr13">
+        <item
+            android:id="@+id/menu_hdfc_direct"
+            android:title="@string/hdfc_direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr14">
+        <item
+            android:id="@+id/menu_startek_IDFC_Pickup"
+            android:title="@string/startek_IDFC_Pickup"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr15">
+        <item
+            android:id="@+id/menu_startek_IDFC_Direct"
+            android:title="@string/startek_IDFC_Direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr16">
+        <item
+            android:id="@+id/menu_bajaj_Direct"
+            android:title="@string/bajaj_Direct"
+            android:visible="false" />
+    </group>
+
+
+    <group android:id="@+id/gr17">
+        <item
+            android:id="@+id/menu_kvb_pickup"
+            android:title="@string/kvb_pickup"
+            android:visible="false" />
+    </group>
+
+    <group android:id="@+id/gr18">
+        <item
+            android:id="@+id/menu_kvb_direct"
+            android:title="@string/kvb_direct"
+            android:visible="false" />
+    </group>
+    <group android:id="@+id/gr19">
+        <item
+            android:id="@+id/menu_equitas_pickup"
+            android:title="@string/equitas_pickup"
+            android:visible="false" />
+    </group>
+
+    <group android:id="@+id/gr20">
+        <item
+            android:id="@+id/menu_equitas_direct"
+            android:title="@string/equitas_direct"
+            android:visible="false" />
+    </group>
+
+
+    <group android:id="@+id/gr21">
+        <item
+            android:id="@+id/menu_cashhandover"
+            android:title="@string/cashhandover"
+            android:visible="true" />
+    </group>
+
+    <group android:id="@+id/gr22">
+        <item
+            android:id="@+id/menu_upload"
+            android:title="@string/upload" />
+    </group>
+    <group android:id="@+id/gr23">
+        <item
+            android:id="@+id/fe_report"
+            android:title="@string/fe_report"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/gr24">
+        <item
+            android:id="@+id/change_password"
+            android:title="@string/chng_pass"
+            android:visible="true" />
+    </group>
+    <group android:id="@+id/gr25">
+        <item
+            android:id="@+id/Logout"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/search"
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:layout_margin="10dp"
+        android:background="@drawable/editext_gray"
+        android:drawablePadding="10dp"
+        android:hint="@string/enter_bagid"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+
+        android:listSelector="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:background="@color/secondary"
+        android:layout_height="40dp"
+        android:text="COLLECT"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
+

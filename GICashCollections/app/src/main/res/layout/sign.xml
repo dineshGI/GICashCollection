@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/signature"
+        app:titleTextColor="@color/white" />
+
+    <com.github.gcacace.signaturepad.views.SignaturePad
+
+        android:id="@+id/signature_pad"
+        android:background="@drawable/border_gray"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:penColor="@android:color/black"
+        />
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:paddingRight="20dp"
+        android:orientation="horizontal" >
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:visibility="invisible"
+            android:layout_marginRight="10dp"
+            android:background="@color/grey"
+            android:text="CLEAR"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:visibility="invisible"
+            android:background="@color/green"
+            android:text="DONE"/>
+        <Button
+            android:id="@+id/clear"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/text_primary"
+            android:layout_marginRight="10dp"
+            android:background="@color/grey"
+            android:text="CLEAR"/>
+        <Button
+            android:id="@+id/done"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:text="DONE"/>
+
+    </LinearLayout>
+</LinearLayout>
